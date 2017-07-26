@@ -7,7 +7,7 @@ html, body {
 body {
   background-image: url("http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/bg-static.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 35% bottom;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
