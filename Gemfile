@@ -39,7 +39,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise', git: 'https://github.com/plataformatec/devise.git', branch: 'master'
 
-
+gem 'pg'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
