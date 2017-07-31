@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   devise_for :users
-#get 'welcome' => 'pages#home'
+get 'welcome' => 'pages#home'
 
 root "pages#login"
 
