@@ -1,4 +1,14 @@
 GIT
+  remote: git://github.com/getshogun/shogun_rails.git
+  revision: 55b278106d517fa888d2ff82c5bb5268c928f211
+  specs:
+    shogun (0.3.6)
+      hamster (~> 3.x)
+      http
+      http_accept_language
+      rails (>= 4)
+
+GIT
   remote: https://github.com/plataformatec/devise.git
   revision: 71fc5b351a8e8473733b0ca29d60c06e43a0efe1
   branch: master
@@ -79,11 +89,25 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    domain_name (0.5.20170404)
+      unf (>= 0.0.5, < 1.0.0)
     erubi (1.6.1)
     execjs (2.7.0)
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    hamster (3.0.0)
+      concurrent-ruby (~> 1.0)
+    http (2.2.2)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 1.0.1)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (1.0.3)
+    http_accept_language (2.1.1)
+    http_parser.rb (0.6.0)
     i18n (0.8.6)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -182,6 +206,9 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.4)
     warden (1.2.7)
       rack (>= 1.0)
     web-console (3.5.1)
@@ -212,6 +239,7 @@ DEPENDENCIES
   rails (~> 5.1.1)
   sass-rails (~> 5.0)
   selenium-webdriver
+  shogun!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
@@ -223,4 +251,4 @@ RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.15.2
+   1.15.3
