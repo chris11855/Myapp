@@ -37,7 +37,7 @@ gem 'devise', git: 'https://github.com/plataformatec/devise.git', branch: 'maste
 
 gem 'pg'
 
-require 'open-uri'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
