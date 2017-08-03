@@ -66,7 +66,7 @@ $(document).ready(function(){
         timer(animationTime, days);
         deadlineAnimation();
 
-        console.log('begin interval', animationTime * 1000);
+
 
     }, animationTime * 1000);
 
